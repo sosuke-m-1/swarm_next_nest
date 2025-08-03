@@ -21,6 +21,7 @@ out/
 .tmp/
 coverage/
 .nyc_output/
+backend/generated/prisma
 
 # ====================
 # ⚙️ Runtime
