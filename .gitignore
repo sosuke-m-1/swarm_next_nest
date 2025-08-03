@@ -1,0 +1,86 @@
+# ====================
+# 📦 Dependencies
+# ====================
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ====================
+# 🔨 Build / Output
+# ====================
+dist/
+build/
+.next/
+out/
+.temp/
+.tmp/
+coverage/
+.nyc_output/
+
+# ====================
+# ⚙️ Runtime
+# ====================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ====================
+# 🧪 Testing
+# ====================
+*.tsbuildinfo
+next-env.d.ts
+
+# ====================
+# 🔐 Environment Variables
+# ====================
+.env
+.env.*
+!.env.example
+
+# ====================
+# 🐞 Logs & Debug
+# ====================
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ====================
+# 💻 OS / Editor Files
+# ====================
+.DS_Store
+*.pem
+.project
+.classpath
+.settings/
+*.launch
+*.sublime-workspace
+.c9/
+
+# ====================
+# 🧠 VSCode Settings
+# ====================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ====================
+# ☁️ Vercel
+# ====================
+.vercel/
+
+# ====================
+# 🩻 Node Diagnostic Reports
+# ====================
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
