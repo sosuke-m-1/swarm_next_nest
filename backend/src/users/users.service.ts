@@ -19,6 +19,15 @@ export class UsersService {
         return this.prisma.user.findUnique({ where: { id } });
     }
 
+    findByEmailAndPassword(email: string, password: string) {
+        return this.prisma.user.findFirst({
+            where: {
+                email: email,
+                password: password,
+            },
+        });
+    }
+
     update(id: number, data: Prisma.UserUpdateInput) {
         return this.prisma.user.update({ where: { id }, data });
     }
